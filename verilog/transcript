@@ -1,0 +1,1684 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:50:03 on Jun 01,2025
+# vlog -reportprogress 300 ./D_FF.sv ./adder1.sv ./alu.sv ./alu1.sv ./alustim.sv ./b_immediate.sv ./branch_condition.sv ./branch_link.sv ./branch_logic.sv ./cb_immediate.sv ./control_unit.sv ./cpu.sv ./cpustim.sv ./d_immediate.sv ./datamem.sv ./dec3x8.sv ./dec5x32.sv ./decode_stage.sv ./ex_mem_reg.sv ./execute_stage.sv ./fetch_stage.sv ./flag_forwarding.sv ./forwarding_unit.sv ./hazard_unit.sv ./i_immediate.sv ./id_ex_reg.sv ./if_id_reg.sv ./instructmem.sv ./left2_shifter.sv ./math.sv ./mem_wb_reg.sv ./memory_stage.sv ./mux2.sv ./mux3.sv ./mux32.sv ./mux4.sv ./mux8.sv ./reg64.sv ./regN.sv ./regfile.sv ./regstim.sv ./sign_extender.sv ./writeback_stage.sv ./zero_extender.sv ./zero_flagger.sv 
+# -- Compiling module D_FF
+# -- Compiling module adder1
+# -- Compiling module alu
+# -- Compiling module alu1
+# -- Compiling module alustim
+# -- Compiling module b_immediate
+# -- Compiling module branch_condition
+# -- Compiling module branch_link
+# -- Compiling module branch_logic
+# -- Compiling module cb_immediate
+# -- Compiling module control_unit
+# -- Compiling module cpu
+# -- Compiling module cpustim
+# -- Compiling module d_immediate
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# -- Compiling module dec3x8
+# -- Compiling module dec5x32
+# -- Compiling module dec5x32_tb
+# -- Compiling module decode_stage
+# -- Compiling module ex_mem_reg
+# -- Compiling module execute_stage
+# -- Compiling module fetch_stage
+# -- Compiling module flag_forwarding
+# -- Compiling module forwarding_unit
+# -- Compiling module hazard_unit
+# -- Compiling module i_immediate
+# -- Compiling module id_ex_reg
+# -- Compiling module if_id_reg
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# -- Compiling module left2_shifter
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# -- Compiling module mem_wb_reg
+# -- Compiling module memory_stage
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module mux32
+# -- Compiling module mux4
+# -- Compiling module mux8
+# -- Compiling module reg64
+# -- Compiling module reg64_tb
+# -- Compiling module regN
+# -- Compiling module regfile
+# -- Compiling module regstim
+# -- Compiling module sign_extender
+# -- Compiling module writeback_stage
+# -- Compiling module zero_extender
+# -- Compiling module zero_flagger
+# 
+# Top level modules:
+# 	alustim
+# 	branch_condition
+# 	branch_link
+# 	cpustim
+# 	datamem_testbench
+# 	dec5x32_tb
+# 	instructmem_testbench
+# 	left2_shifter
+# 	shifter_testbench
+# 	mult_testbench
+# 	reg64_tb
+# 	regstim
+# End time: 23:50:04 on Jun 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work cpustim 
+# Start time: 23:50:04 on Jun 01,2025
+# Loading sv_std.std
+# Loading work.cpustim
+# Loading work.cpu
+# Loading work.fetch_stage
+# Loading work.reg64
+# Loading work.instructmem
+# Loading work.alu
+# Loading work.alu1
+# Loading work.adder1
+# Loading work.mux8
+# Loading work.dec3x8
+# Loading work.zero_flagger
+# Loading work.if_id_reg
+# Loading work.decode_stage
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.dec5x32
+# Loading work.mux32
+# Loading work.i_immediate
+# Loading work.zero_extender
+# Loading work.b_immediate
+# Loading work.sign_extender
+# Loading work.cb_immediate
+# Loading work.d_immediate
+# Loading work.mux4
+# Loading work.control_unit
+# Loading work.id_ex_reg
+# Loading work.execute_stage
+# Loading work.mux3
+# Loading work.ex_mem_reg
+# Loading work.memory_stage
+# Loading work.datamem
+# Loading work.mem_wb_reg
+# Loading work.writeback_stage
+# Loading work.branch_logic
+# Loading work.forwarding_unit
+# Loading work.hazard_unit
+# Loading work.regN
+# Loading work.flag_forwarding
+# Loading work.D_FF
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: marie  Hostname: DESKTOP-5FR2ES7  ProcessID: 11144
+#           Attempting to use alternate WLF file "./wlft92kifq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft92kifq
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test01_AddiB.arm
+# 
+# ---- Register File Contents ----
+# Reg[0] = 0000000000000000
+# Reg[1] = 0000000000000001
+# Reg[2] = 0000000000000002
+# Reg[3] = 0000000000000003
+# Reg[4] = 0000000000000004
+# Reg[5] = 0000000000000000
+# Reg[6] = 0000000000000000
+# Reg[7] = 0000000000000000
+# Reg[8] = 0000000000000000
+# Reg[9] = 0000000000000000
+# Reg[10] = 0000000000000000
+# Reg[11] = 0000000000000000
+# Reg[12] = 0000000000000000
+# Reg[13] = 0000000000000000
+# Reg[14] = 0000000000000000
+# Reg[15] = 0000000000000000
+# Reg[16] = 0000000000000000
+# Reg[17] = 0000000000000000
+# Reg[18] = 0000000000000000
+# Reg[19] = 0000000000000000
+# Reg[20] = 0000000000000000
+# Reg[21] = 0000000000000000
+# Reg[22] = 0000000000000000
+# Reg[23] = 0000000000000000
+# Reg[24] = 0000000000000000
+# Reg[25] = 0000000000000000
+# Reg[26] = 0000000000000000
+# Reg[27] = 0000000000000000
+# Reg[28] = 0000000000000000
+# Reg[29] = 0000000000000000
+# Reg[30] = 0000000000000000
+# Reg[31] = 0000000000000000
+# 
+# ---- Data Memory Contents ----
+# Mem[0] = xxxxxxxxxxxxxxxx
+# Mem[8] = xxxxxxxxxxxxxxxx
+# Mem[16] = xxxxxxxxxxxxxxxx
+# Mem[24] = xxxxxxxxxxxxxxxx
+# Mem[32] = xxxxxxxxxxxxxxxx
+# Mem[40] = xxxxxxxxxxxxxxxx
+# Mem[48] = xxxxxxxxxxxxxxxx
+# Mem[56] = xxxxxxxxxxxxxxxx
+# Mem[64] = xxxxxxxxxxxxxxxx
+# Mem[72] = xxxxxxxxxxxxxxxx
+# Mem[80] = xxxxxxxxxxxxxxxx
+# Mem[88] = xxxxxxxxxxxxxxxx
+# Mem[96] = xxxxxxxxxxxxxxxx
+# Mem[104] = xxxxxxxxxxxxxxxx
+# Mem[112] = xxxxxxxxxxxxxxxx
+# Mem[120] = xxxxxxxxxxxxxxxx
+# 
+# ---- Final ALU Flags ----
+# Negative:   0
+# Zero:       0
+# Overflow:   0
+# Carry-out:  0
+# ** Note: $stop    : ./cpustim.sv(57)
+#    Time: 100050 us  Iteration: 1  Instance: /cpustim
+# Break in Module cpustim at ./cpustim.sv line 57
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:51:54 on Jun 01,2025
+# vlog -reportprogress 300 ./D_FF.sv ./adder1.sv ./alu.sv ./alu1.sv ./alustim.sv ./b_immediate.sv ./branch_condition.sv ./branch_link.sv ./branch_logic.sv ./cb_immediate.sv ./control_unit.sv ./cpu.sv ./cpustim.sv ./d_immediate.sv ./datamem.sv ./dec3x8.sv ./dec5x32.sv ./decode_stage.sv ./ex_mem_reg.sv ./execute_stage.sv ./fetch_stage.sv ./flag_forwarding.sv ./forwarding_unit.sv ./hazard_unit.sv ./i_immediate.sv ./id_ex_reg.sv ./if_id_reg.sv ./instructmem.sv ./left2_shifter.sv ./math.sv ./mem_wb_reg.sv ./memory_stage.sv ./mux2.sv ./mux3.sv ./mux32.sv ./mux4.sv ./mux8.sv ./reg64.sv ./regN.sv ./regfile.sv ./regstim.sv ./sign_extender.sv ./writeback_stage.sv ./zero_extender.sv ./zero_flagger.sv 
+# -- Compiling module D_FF
+# -- Compiling module adder1
+# -- Compiling module alu
+# -- Compiling module alu1
+# -- Compiling module alustim
+# -- Compiling module b_immediate
+# -- Compiling module branch_condition
+# -- Compiling module branch_link
+# -- Compiling module branch_logic
+# -- Compiling module cb_immediate
+# -- Compiling module control_unit
+# -- Compiling module cpu
+# -- Compiling module cpustim
+# -- Compiling module d_immediate
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# -- Compiling module dec3x8
+# -- Compiling module dec5x32
+# -- Compiling module dec5x32_tb
+# -- Compiling module decode_stage
+# -- Compiling module ex_mem_reg
+# -- Compiling module execute_stage
+# -- Compiling module fetch_stage
+# -- Compiling module flag_forwarding
+# -- Compiling module forwarding_unit
+# -- Compiling module hazard_unit
+# -- Compiling module i_immediate
+# -- Compiling module id_ex_reg
+# -- Compiling module if_id_reg
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# -- Compiling module left2_shifter
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# -- Compiling module mem_wb_reg
+# -- Compiling module memory_stage
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module mux32
+# -- Compiling module mux4
+# -- Compiling module mux8
+# -- Compiling module reg64
+# -- Compiling module reg64_tb
+# -- Compiling module regN
+# -- Compiling module regfile
+# -- Compiling module regstim
+# -- Compiling module sign_extender
+# -- Compiling module writeback_stage
+# -- Compiling module zero_extender
+# -- Compiling module zero_flagger
+# 
+# Top level modules:
+# 	alustim
+# 	branch_condition
+# 	branch_link
+# 	cpustim
+# 	datamem_testbench
+# 	dec5x32_tb
+# 	instructmem_testbench
+# 	left2_shifter
+# 	shifter_testbench
+# 	mult_testbench
+# 	reg64_tb
+# 	regstim
+# End time: 23:51:55 on Jun 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 23:51:55 on Jun 01,2025, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work cpustim 
+# Start time: 23:51:55 on Jun 01,2025
+# Loading sv_std.std
+# Loading work.cpustim
+# Loading work.cpu
+# Loading work.fetch_stage
+# Loading work.reg64
+# Loading work.instructmem
+# Loading work.alu
+# Loading work.alu1
+# Loading work.adder1
+# Loading work.mux8
+# Loading work.dec3x8
+# Loading work.zero_flagger
+# Loading work.if_id_reg
+# Loading work.decode_stage
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.dec5x32
+# Loading work.mux32
+# Loading work.i_immediate
+# Loading work.zero_extender
+# Loading work.b_immediate
+# Loading work.sign_extender
+# Loading work.cb_immediate
+# Loading work.d_immediate
+# Loading work.mux4
+# Loading work.control_unit
+# Loading work.id_ex_reg
+# Loading work.execute_stage
+# Loading work.mux3
+# Loading work.ex_mem_reg
+# Loading work.memory_stage
+# Loading work.datamem
+# Loading work.mem_wb_reg
+# Loading work.writeback_stage
+# Loading work.branch_logic
+# Loading work.forwarding_unit
+# Loading work.hazard_unit
+# Loading work.regN
+# Loading work.flag_forwarding
+# Loading work.D_FF
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: marie  Hostname: DESKTOP-5FR2ES7  ProcessID: 11144
+#           Attempting to use alternate WLF file "./wlft8caink".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8caink
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test02_AddsSubs.arm
+# 
+# ---- Register File Contents ----
+# Reg[0] = 0000000000000001
+# Reg[1] = ffffffffffffffff
+# Reg[2] = 0000000000000002
+# Reg[3] = fffffffffffffffd
+# Reg[4] = fffffffffffffffe
+# Reg[5] = fffffffffffffffb
+# Reg[6] = 0000000000000000
+# Reg[7] = fffffffffffffffa
+# Reg[8] = 0000000000000000
+# Reg[9] = 0000000000000000
+# Reg[10] = 0000000000000000
+# Reg[11] = 0000000000000000
+# Reg[12] = 0000000000000000
+# Reg[13] = 0000000000000000
+# Reg[14] = 0000000000000000
+# Reg[15] = 0000000000000000
+# Reg[16] = 0000000000000000
+# Reg[17] = 0000000000000000
+# Reg[18] = 0000000000000000
+# Reg[19] = 0000000000000000
+# Reg[20] = 0000000000000000
+# Reg[21] = 0000000000000000
+# Reg[22] = 0000000000000000
+# Reg[23] = 0000000000000000
+# Reg[24] = 0000000000000000
+# Reg[25] = 0000000000000000
+# Reg[26] = 0000000000000000
+# Reg[27] = 0000000000000000
+# Reg[28] = 0000000000000000
+# Reg[29] = 0000000000000000
+# Reg[30] = 0000000000000000
+# Reg[31] = 0000000000000000
+# 
+# ---- Data Memory Contents ----
+# Mem[0] = xxxxxxxxxxxxxxxx
+# Mem[8] = xxxxxxxxxxxxxxxx
+# Mem[16] = xxxxxxxxxxxxxxxx
+# Mem[24] = xxxxxxxxxxxxxxxx
+# Mem[32] = xxxxxxxxxxxxxxxx
+# Mem[40] = xxxxxxxxxxxxxxxx
+# Mem[48] = xxxxxxxxxxxxxxxx
+# Mem[56] = xxxxxxxxxxxxxxxx
+# Mem[64] = xxxxxxxxxxxxxxxx
+# Mem[72] = xxxxxxxxxxxxxxxx
+# Mem[80] = xxxxxxxxxxxxxxxx
+# Mem[88] = xxxxxxxxxxxxxxxx
+# Mem[96] = xxxxxxxxxxxxxxxx
+# Mem[104] = xxxxxxxxxxxxxxxx
+# Mem[112] = xxxxxxxxxxxxxxxx
+# Mem[120] = xxxxxxxxxxxxxxxx
+# 
+# ---- Final ALU Flags ----
+# Negative:   1
+# Zero:       0
+# Overflow:   0
+# Carry-out:  1
+# ** Note: $stop    : ./cpustim.sv(57)
+#    Time: 100050 us  Iteration: 1  Instance: /cpustim
+# Break in Module cpustim at ./cpustim.sv line 57
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:52:29 on Jun 01,2025
+# vlog -reportprogress 300 ./D_FF.sv ./adder1.sv ./alu.sv ./alu1.sv ./alustim.sv ./b_immediate.sv ./branch_condition.sv ./branch_link.sv ./branch_logic.sv ./cb_immediate.sv ./control_unit.sv ./cpu.sv ./cpustim.sv ./d_immediate.sv ./datamem.sv ./dec3x8.sv ./dec5x32.sv ./decode_stage.sv ./ex_mem_reg.sv ./execute_stage.sv ./fetch_stage.sv ./flag_forwarding.sv ./forwarding_unit.sv ./hazard_unit.sv ./i_immediate.sv ./id_ex_reg.sv ./if_id_reg.sv ./instructmem.sv ./left2_shifter.sv ./math.sv ./mem_wb_reg.sv ./memory_stage.sv ./mux2.sv ./mux3.sv ./mux32.sv ./mux4.sv ./mux8.sv ./reg64.sv ./regN.sv ./regfile.sv ./regstim.sv ./sign_extender.sv ./writeback_stage.sv ./zero_extender.sv ./zero_flagger.sv 
+# -- Compiling module D_FF
+# -- Compiling module adder1
+# -- Compiling module alu
+# -- Compiling module alu1
+# -- Compiling module alustim
+# -- Compiling module b_immediate
+# -- Compiling module branch_condition
+# -- Compiling module branch_link
+# -- Compiling module branch_logic
+# -- Compiling module cb_immediate
+# -- Compiling module control_unit
+# -- Compiling module cpu
+# -- Compiling module cpustim
+# -- Compiling module d_immediate
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# -- Compiling module dec3x8
+# -- Compiling module dec5x32
+# -- Compiling module dec5x32_tb
+# -- Compiling module decode_stage
+# -- Compiling module ex_mem_reg
+# -- Compiling module execute_stage
+# -- Compiling module fetch_stage
+# -- Compiling module flag_forwarding
+# -- Compiling module forwarding_unit
+# -- Compiling module hazard_unit
+# -- Compiling module i_immediate
+# -- Compiling module id_ex_reg
+# -- Compiling module if_id_reg
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# -- Compiling module left2_shifter
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# -- Compiling module mem_wb_reg
+# -- Compiling module memory_stage
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module mux32
+# -- Compiling module mux4
+# -- Compiling module mux8
+# -- Compiling module reg64
+# -- Compiling module reg64_tb
+# -- Compiling module regN
+# -- Compiling module regfile
+# -- Compiling module regstim
+# -- Compiling module sign_extender
+# -- Compiling module writeback_stage
+# -- Compiling module zero_extender
+# -- Compiling module zero_flagger
+# 
+# Top level modules:
+# 	alustim
+# 	branch_condition
+# 	branch_link
+# 	cpustim
+# 	datamem_testbench
+# 	dec5x32_tb
+# 	instructmem_testbench
+# 	left2_shifter
+# 	shifter_testbench
+# 	mult_testbench
+# 	reg64_tb
+# 	regstim
+# End time: 23:52:30 on Jun 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 23:52:31 on Jun 01,2025, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work cpustim 
+# Start time: 23:52:31 on Jun 01,2025
+# Loading sv_std.std
+# Loading work.cpustim
+# Loading work.cpu
+# Loading work.fetch_stage
+# Loading work.reg64
+# Loading work.instructmem
+# Loading work.alu
+# Loading work.alu1
+# Loading work.adder1
+# Loading work.mux8
+# Loading work.dec3x8
+# Loading work.zero_flagger
+# Loading work.if_id_reg
+# Loading work.decode_stage
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.dec5x32
+# Loading work.mux32
+# Loading work.i_immediate
+# Loading work.zero_extender
+# Loading work.b_immediate
+# Loading work.sign_extender
+# Loading work.cb_immediate
+# Loading work.d_immediate
+# Loading work.mux4
+# Loading work.control_unit
+# Loading work.id_ex_reg
+# Loading work.execute_stage
+# Loading work.mux3
+# Loading work.ex_mem_reg
+# Loading work.memory_stage
+# Loading work.datamem
+# Loading work.mem_wb_reg
+# Loading work.writeback_stage
+# Loading work.branch_logic
+# Loading work.forwarding_unit
+# Loading work.hazard_unit
+# Loading work.regN
+# Loading work.flag_forwarding
+# Loading work.D_FF
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: marie  Hostname: DESKTOP-5FR2ES7  ProcessID: 11144
+#           Attempting to use alternate WLF file "./wlft0zws90".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0zws90
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test03_CbzB.arm
+# 
+# ---- Register File Contents ----
+# Reg[0] = 0000000000000001
+# Reg[1] = 0000000000000000
+# Reg[2] = 0000000000000000
+# Reg[3] = 0000000000000001
+# Reg[4] = 000000000000001f
+# Reg[5] = 0000000000000000
+# Reg[6] = 0000000000000000
+# Reg[7] = 0000000000000000
+# Reg[8] = 0000000000000000
+# Reg[9] = 0000000000000000
+# Reg[10] = 0000000000000000
+# Reg[11] = 0000000000000000
+# Reg[12] = 0000000000000000
+# Reg[13] = 0000000000000000
+# Reg[14] = 0000000000000000
+# Reg[15] = 0000000000000000
+# Reg[16] = 0000000000000000
+# Reg[17] = 0000000000000000
+# Reg[18] = 0000000000000000
+# Reg[19] = 0000000000000000
+# Reg[20] = 0000000000000000
+# Reg[21] = 0000000000000000
+# Reg[22] = 0000000000000000
+# Reg[23] = 0000000000000000
+# Reg[24] = 0000000000000000
+# Reg[25] = 0000000000000000
+# Reg[26] = 0000000000000000
+# Reg[27] = 0000000000000000
+# Reg[28] = 0000000000000000
+# Reg[29] = 0000000000000000
+# Reg[30] = 0000000000000000
+# Reg[31] = 0000000000000000
+# 
+# ---- Data Memory Contents ----
+# Mem[0] = xxxxxxxxxxxxxxxx
+# Mem[8] = xxxxxxxxxxxxxxxx
+# Mem[16] = xxxxxxxxxxxxxxxx
+# Mem[24] = xxxxxxxxxxxxxxxx
+# Mem[32] = xxxxxxxxxxxxxxxx
+# Mem[40] = xxxxxxxxxxxxxxxx
+# Mem[48] = xxxxxxxxxxxxxxxx
+# Mem[56] = xxxxxxxxxxxxxxxx
+# Mem[64] = xxxxxxxxxxxxxxxx
+# Mem[72] = xxxxxxxxxxxxxxxx
+# Mem[80] = xxxxxxxxxxxxxxxx
+# Mem[88] = xxxxxxxxxxxxxxxx
+# Mem[96] = xxxxxxxxxxxxxxxx
+# Mem[104] = xxxxxxxxxxxxxxxx
+# Mem[112] = xxxxxxxxxxxxxxxx
+# Mem[120] = xxxxxxxxxxxxxxxx
+# 
+# ---- Final ALU Flags ----
+# Negative:   0
+# Zero:       0
+# Overflow:   0
+# Carry-out:  0
+# ** Note: $stop    : ./cpustim.sv(57)
+#    Time: 100050 us  Iteration: 1  Instance: /cpustim
+# Break in Module cpustim at ./cpustim.sv line 57
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:52:59 on Jun 01,2025
+# vlog -reportprogress 300 ./D_FF.sv ./adder1.sv ./alu.sv ./alu1.sv ./alustim.sv ./b_immediate.sv ./branch_condition.sv ./branch_link.sv ./branch_logic.sv ./cb_immediate.sv ./control_unit.sv ./cpu.sv ./cpustim.sv ./d_immediate.sv ./datamem.sv ./dec3x8.sv ./dec5x32.sv ./decode_stage.sv ./ex_mem_reg.sv ./execute_stage.sv ./fetch_stage.sv ./flag_forwarding.sv ./forwarding_unit.sv ./hazard_unit.sv ./i_immediate.sv ./id_ex_reg.sv ./if_id_reg.sv ./instructmem.sv ./left2_shifter.sv ./math.sv ./mem_wb_reg.sv ./memory_stage.sv ./mux2.sv ./mux3.sv ./mux32.sv ./mux4.sv ./mux8.sv ./reg64.sv ./regN.sv ./regfile.sv ./regstim.sv ./sign_extender.sv ./writeback_stage.sv ./zero_extender.sv ./zero_flagger.sv 
+# -- Compiling module D_FF
+# -- Compiling module adder1
+# -- Compiling module alu
+# -- Compiling module alu1
+# -- Compiling module alustim
+# -- Compiling module b_immediate
+# -- Compiling module branch_condition
+# -- Compiling module branch_link
+# -- Compiling module branch_logic
+# -- Compiling module cb_immediate
+# -- Compiling module control_unit
+# -- Compiling module cpu
+# -- Compiling module cpustim
+# -- Compiling module d_immediate
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# -- Compiling module dec3x8
+# -- Compiling module dec5x32
+# -- Compiling module dec5x32_tb
+# -- Compiling module decode_stage
+# -- Compiling module ex_mem_reg
+# -- Compiling module execute_stage
+# -- Compiling module fetch_stage
+# -- Compiling module flag_forwarding
+# -- Compiling module forwarding_unit
+# -- Compiling module hazard_unit
+# -- Compiling module i_immediate
+# -- Compiling module id_ex_reg
+# -- Compiling module if_id_reg
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# -- Compiling module left2_shifter
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# -- Compiling module mem_wb_reg
+# -- Compiling module memory_stage
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module mux32
+# -- Compiling module mux4
+# -- Compiling module mux8
+# -- Compiling module reg64
+# -- Compiling module reg64_tb
+# -- Compiling module regN
+# -- Compiling module regfile
+# -- Compiling module regstim
+# -- Compiling module sign_extender
+# -- Compiling module writeback_stage
+# -- Compiling module zero_extender
+# -- Compiling module zero_flagger
+# 
+# Top level modules:
+# 	alustim
+# 	branch_condition
+# 	branch_link
+# 	cpustim
+# 	datamem_testbench
+# 	dec5x32_tb
+# 	instructmem_testbench
+# 	left2_shifter
+# 	shifter_testbench
+# 	mult_testbench
+# 	reg64_tb
+# 	regstim
+# End time: 23:52:59 on Jun 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:53:00 on Jun 01,2025, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work cpustim 
+# Start time: 23:53:00 on Jun 01,2025
+# Loading sv_std.std
+# Loading work.cpustim
+# Loading work.cpu
+# Loading work.fetch_stage
+# Loading work.reg64
+# Loading work.instructmem
+# Loading work.alu
+# Loading work.alu1
+# Loading work.adder1
+# Loading work.mux8
+# Loading work.dec3x8
+# Loading work.zero_flagger
+# Loading work.if_id_reg
+# Loading work.decode_stage
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.dec5x32
+# Loading work.mux32
+# Loading work.i_immediate
+# Loading work.zero_extender
+# Loading work.b_immediate
+# Loading work.sign_extender
+# Loading work.cb_immediate
+# Loading work.d_immediate
+# Loading work.mux4
+# Loading work.control_unit
+# Loading work.id_ex_reg
+# Loading work.execute_stage
+# Loading work.mux3
+# Loading work.ex_mem_reg
+# Loading work.memory_stage
+# Loading work.datamem
+# Loading work.mem_wb_reg
+# Loading work.writeback_stage
+# Loading work.branch_logic
+# Loading work.forwarding_unit
+# Loading work.hazard_unit
+# Loading work.regN
+# Loading work.flag_forwarding
+# Loading work.D_FF
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: marie  Hostname: DESKTOP-5FR2ES7  ProcessID: 11144
+#           Attempting to use alternate WLF file "./wlftcjx8ac".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftcjx8ac
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test04_LdurStur.arm
+# 
+# ---- Register File Contents ----
+# Reg[0] = 0000000000000001
+# Reg[1] = 0000000000000002
+# Reg[2] = 0000000000000003
+# Reg[3] = 0000000000000008
+# Reg[4] = 000000000000000b
+# Reg[5] = 0000000000000001
+# Reg[6] = 0000000000000002
+# Reg[7] = 0000000000000003
+# Reg[8] = 0000000000000000
+# Reg[9] = 0000000000000000
+# Reg[10] = 0000000000000000
+# Reg[11] = 0000000000000000
+# Reg[12] = 0000000000000000
+# Reg[13] = 0000000000000000
+# Reg[14] = 0000000000000000
+# Reg[15] = 0000000000000000
+# Reg[16] = 0000000000000000
+# Reg[17] = 0000000000000000
+# Reg[18] = 0000000000000000
+# Reg[19] = 0000000000000000
+# Reg[20] = 0000000000000000
+# Reg[21] = 0000000000000000
+# Reg[22] = 0000000000000000
+# Reg[23] = 0000000000000000
+# Reg[24] = 0000000000000000
+# Reg[25] = 0000000000000000
+# Reg[26] = 0000000000000000
+# Reg[27] = 0000000000000000
+# Reg[28] = 0000000000000000
+# Reg[29] = 0000000000000000
+# Reg[30] = 0000000000000000
+# Reg[31] = 0000000000000000
+# 
+# ---- Data Memory Contents ----
+# Mem[0] = 0000000000000001
+# Mem[8] = 0000000000000002
+# Mem[16] = 0000000000000003
+# Mem[24] = xxxxxxxxxxxxxxxx
+# Mem[32] = xxxxxxxxxxxxxxxx
+# Mem[40] = xxxxxxxxxxxxxxxx
+# Mem[48] = xxxxxxxxxxxxxxxx
+# Mem[56] = xxxxxxxxxxxxxxxx
+# Mem[64] = xxxxxxxxxxxxxxxx
+# Mem[72] = xxxxxxxxxxxxxxxx
+# Mem[80] = xxxxxxxxxxxxxxxx
+# Mem[88] = xxxxxxxxxxxxxxxx
+# Mem[96] = xxxxxxxxxxxxxxxx
+# Mem[104] = xxxxxxxxxxxxxxxx
+# Mem[112] = xxxxxxxxxxxxxxxx
+# Mem[120] = xxxxxxxxxxxxxxxx
+# 
+# ---- Final ALU Flags ----
+# Negative:   0
+# Zero:       0
+# Overflow:   0
+# Carry-out:  0
+# ** Note: $stop    : ./cpustim.sv(57)
+#    Time: 100050 us  Iteration: 1  Instance: /cpustim
+# Break in Module cpustim at ./cpustim.sv line 57
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:53:24 on Jun 01,2025
+# vlog -reportprogress 300 ./D_FF.sv ./adder1.sv ./alu.sv ./alu1.sv ./alustim.sv ./b_immediate.sv ./branch_condition.sv ./branch_link.sv ./branch_logic.sv ./cb_immediate.sv ./control_unit.sv ./cpu.sv ./cpustim.sv ./d_immediate.sv ./datamem.sv ./dec3x8.sv ./dec5x32.sv ./decode_stage.sv ./ex_mem_reg.sv ./execute_stage.sv ./fetch_stage.sv ./flag_forwarding.sv ./forwarding_unit.sv ./hazard_unit.sv ./i_immediate.sv ./id_ex_reg.sv ./if_id_reg.sv ./instructmem.sv ./left2_shifter.sv ./math.sv ./mem_wb_reg.sv ./memory_stage.sv ./mux2.sv ./mux3.sv ./mux32.sv ./mux4.sv ./mux8.sv ./reg64.sv ./regN.sv ./regfile.sv ./regstim.sv ./sign_extender.sv ./writeback_stage.sv ./zero_extender.sv ./zero_flagger.sv 
+# -- Compiling module D_FF
+# -- Compiling module adder1
+# -- Compiling module alu
+# -- Compiling module alu1
+# -- Compiling module alustim
+# -- Compiling module b_immediate
+# -- Compiling module branch_condition
+# -- Compiling module branch_link
+# -- Compiling module branch_logic
+# -- Compiling module cb_immediate
+# -- Compiling module control_unit
+# -- Compiling module cpu
+# -- Compiling module cpustim
+# -- Compiling module d_immediate
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# -- Compiling module dec3x8
+# -- Compiling module dec5x32
+# -- Compiling module dec5x32_tb
+# -- Compiling module decode_stage
+# -- Compiling module ex_mem_reg
+# -- Compiling module execute_stage
+# -- Compiling module fetch_stage
+# -- Compiling module flag_forwarding
+# -- Compiling module forwarding_unit
+# -- Compiling module hazard_unit
+# -- Compiling module i_immediate
+# -- Compiling module id_ex_reg
+# -- Compiling module if_id_reg
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# -- Compiling module left2_shifter
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# -- Compiling module mem_wb_reg
+# -- Compiling module memory_stage
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module mux32
+# -- Compiling module mux4
+# -- Compiling module mux8
+# -- Compiling module reg64
+# -- Compiling module reg64_tb
+# -- Compiling module regN
+# -- Compiling module regfile
+# -- Compiling module regstim
+# -- Compiling module sign_extender
+# -- Compiling module writeback_stage
+# -- Compiling module zero_extender
+# -- Compiling module zero_flagger
+# 
+# Top level modules:
+# 	alustim
+# 	branch_condition
+# 	branch_link
+# 	cpustim
+# 	datamem_testbench
+# 	dec5x32_tb
+# 	instructmem_testbench
+# 	left2_shifter
+# 	shifter_testbench
+# 	mult_testbench
+# 	reg64_tb
+# 	regstim
+# End time: 23:53:24 on Jun 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:53:25 on Jun 01,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work cpustim 
+# Start time: 23:53:25 on Jun 01,2025
+# Loading sv_std.std
+# Loading work.cpustim
+# Loading work.cpu
+# Loading work.fetch_stage
+# Loading work.reg64
+# Loading work.instructmem
+# Loading work.alu
+# Loading work.alu1
+# Loading work.adder1
+# Loading work.mux8
+# Loading work.dec3x8
+# Loading work.zero_flagger
+# Loading work.if_id_reg
+# Loading work.decode_stage
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.dec5x32
+# Loading work.mux32
+# Loading work.i_immediate
+# Loading work.zero_extender
+# Loading work.b_immediate
+# Loading work.sign_extender
+# Loading work.cb_immediate
+# Loading work.d_immediate
+# Loading work.mux4
+# Loading work.control_unit
+# Loading work.id_ex_reg
+# Loading work.execute_stage
+# Loading work.mux3
+# Loading work.ex_mem_reg
+# Loading work.memory_stage
+# Loading work.datamem
+# Loading work.mem_wb_reg
+# Loading work.writeback_stage
+# Loading work.branch_logic
+# Loading work.forwarding_unit
+# Loading work.hazard_unit
+# Loading work.regN
+# Loading work.flag_forwarding
+# Loading work.D_FF
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: marie  Hostname: DESKTOP-5FR2ES7  ProcessID: 11144
+#           Attempting to use alternate WLF file "./wlft2efkdk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2efkdk
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test05_Blt.arm
+# 
+# ---- Register File Contents ----
+# Reg[0] = 0000000000000001
+# Reg[1] = 0000000000000000
+# Reg[2] = 0000000000000000
+# Reg[3] = 0000000000000000
+# Reg[4] = 0000000000000000
+# Reg[5] = 0000000000000000
+# Reg[6] = 0000000000000000
+# Reg[7] = 0000000000000000
+# Reg[8] = 0000000000000000
+# Reg[9] = 0000000000000000
+# Reg[10] = 0000000000000000
+# Reg[11] = 0000000000000000
+# Reg[12] = 0000000000000000
+# Reg[13] = 0000000000000000
+# Reg[14] = 0000000000000000
+# Reg[15] = 0000000000000000
+# Reg[16] = 0000000000000000
+# Reg[17] = 0000000000000000
+# Reg[18] = 0000000000000000
+# Reg[19] = 0000000000000000
+# Reg[20] = 0000000000000000
+# Reg[21] = 0000000000000000
+# Reg[22] = 0000000000000000
+# Reg[23] = 0000000000000000
+# Reg[24] = 0000000000000000
+# Reg[25] = 0000000000000000
+# Reg[26] = 0000000000000000
+# Reg[27] = 0000000000000000
+# Reg[28] = 0000000000000000
+# Reg[29] = 0000000000000000
+# Reg[30] = 0000000000000000
+# Reg[31] = 0000000000000000
+# 
+# ---- Data Memory Contents ----
+# Mem[0] = xxxxxxxxxxxxxxxx
+# Mem[8] = xxxxxxxxxxxxxxxx
+# Mem[16] = xxxxxxxxxxxxxxxx
+# Mem[24] = xxxxxxxxxxxxxxxx
+# Mem[32] = xxxxxxxxxxxxxxxx
+# Mem[40] = xxxxxxxxxxxxxxxx
+# Mem[48] = xxxxxxxxxxxxxxxx
+# Mem[56] = xxxxxxxxxxxxxxxx
+# Mem[64] = xxxxxxxxxxxxxxxx
+# Mem[72] = xxxxxxxxxxxxxxxx
+# Mem[80] = xxxxxxxxxxxxxxxx
+# Mem[88] = xxxxxxxxxxxxxxxx
+# Mem[96] = xxxxxxxxxxxxxxxx
+# Mem[104] = xxxxxxxxxxxxxxxx
+# Mem[112] = xxxxxxxxxxxxxxxx
+# Mem[120] = xxxxxxxxxxxxxxxx
+# 
+# ---- Final ALU Flags ----
+# Negative:   0
+# Zero:       1
+# Overflow:   0
+# Carry-out:  1
+# ** Note: $stop    : ./cpustim.sv(57)
+#    Time: 100050 us  Iteration: 1  Instance: /cpustim
+# Break in Module cpustim at ./cpustim.sv line 57
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:54:03 on Jun 01,2025
+# vlog -reportprogress 300 ./D_FF.sv ./adder1.sv ./alu.sv ./alu1.sv ./alustim.sv ./b_immediate.sv ./branch_condition.sv ./branch_link.sv ./branch_logic.sv ./cb_immediate.sv ./control_unit.sv ./cpu.sv ./cpustim.sv ./d_immediate.sv ./datamem.sv ./dec3x8.sv ./dec5x32.sv ./decode_stage.sv ./ex_mem_reg.sv ./execute_stage.sv ./fetch_stage.sv ./flag_forwarding.sv ./forwarding_unit.sv ./hazard_unit.sv ./i_immediate.sv ./id_ex_reg.sv ./if_id_reg.sv ./instructmem.sv ./left2_shifter.sv ./math.sv ./mem_wb_reg.sv ./memory_stage.sv ./mux2.sv ./mux3.sv ./mux32.sv ./mux4.sv ./mux8.sv ./reg64.sv ./regN.sv ./regfile.sv ./regstim.sv ./sign_extender.sv ./writeback_stage.sv ./zero_extender.sv ./zero_flagger.sv 
+# -- Compiling module D_FF
+# -- Compiling module adder1
+# -- Compiling module alu
+# -- Compiling module alu1
+# -- Compiling module alustim
+# -- Compiling module b_immediate
+# -- Compiling module branch_condition
+# -- Compiling module branch_link
+# -- Compiling module branch_logic
+# -- Compiling module cb_immediate
+# -- Compiling module control_unit
+# -- Compiling module cpu
+# -- Compiling module cpustim
+# -- Compiling module d_immediate
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# -- Compiling module dec3x8
+# -- Compiling module dec5x32
+# -- Compiling module dec5x32_tb
+# -- Compiling module decode_stage
+# -- Compiling module ex_mem_reg
+# -- Compiling module execute_stage
+# -- Compiling module fetch_stage
+# -- Compiling module flag_forwarding
+# -- Compiling module forwarding_unit
+# -- Compiling module hazard_unit
+# -- Compiling module i_immediate
+# -- Compiling module id_ex_reg
+# -- Compiling module if_id_reg
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# -- Compiling module left2_shifter
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# -- Compiling module mem_wb_reg
+# -- Compiling module memory_stage
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module mux32
+# -- Compiling module mux4
+# -- Compiling module mux8
+# -- Compiling module reg64
+# -- Compiling module reg64_tb
+# -- Compiling module regN
+# -- Compiling module regfile
+# -- Compiling module regstim
+# -- Compiling module sign_extender
+# -- Compiling module writeback_stage
+# -- Compiling module zero_extender
+# -- Compiling module zero_flagger
+# 
+# Top level modules:
+# 	alustim
+# 	branch_condition
+# 	branch_link
+# 	cpustim
+# 	datamem_testbench
+# 	dec5x32_tb
+# 	instructmem_testbench
+# 	left2_shifter
+# 	shifter_testbench
+# 	mult_testbench
+# 	reg64_tb
+# 	regstim
+# End time: 23:54:03 on Jun 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:54:05 on Jun 01,2025, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work cpustim 
+# Start time: 23:54:05 on Jun 01,2025
+# Loading sv_std.std
+# Loading work.cpustim
+# Loading work.cpu
+# Loading work.fetch_stage
+# Loading work.reg64
+# Loading work.instructmem
+# Loading work.alu
+# Loading work.alu1
+# Loading work.adder1
+# Loading work.mux8
+# Loading work.dec3x8
+# Loading work.zero_flagger
+# Loading work.if_id_reg
+# Loading work.decode_stage
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.dec5x32
+# Loading work.mux32
+# Loading work.i_immediate
+# Loading work.zero_extender
+# Loading work.b_immediate
+# Loading work.sign_extender
+# Loading work.cb_immediate
+# Loading work.d_immediate
+# Loading work.mux4
+# Loading work.control_unit
+# Loading work.id_ex_reg
+# Loading work.execute_stage
+# Loading work.mux3
+# Loading work.ex_mem_reg
+# Loading work.memory_stage
+# Loading work.datamem
+# Loading work.mem_wb_reg
+# Loading work.writeback_stage
+# Loading work.branch_logic
+# Loading work.forwarding_unit
+# Loading work.hazard_unit
+# Loading work.regN
+# Loading work.flag_forwarding
+# Loading work.D_FF
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: marie  Hostname: DESKTOP-5FR2ES7  ProcessID: 11144
+#           Attempting to use alternate WLF file "./wlft0grajx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0grajx
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test05_Blt.arm
+# 
+# ---- Register File Contents ----
+# Reg[0] = 0000000000000001
+# Reg[1] = 0000000000000000
+# Reg[2] = 0000000000000000
+# Reg[3] = 0000000000000000
+# Reg[4] = 0000000000000000
+# Reg[5] = 0000000000000000
+# Reg[6] = 0000000000000000
+# Reg[7] = 0000000000000000
+# Reg[8] = 0000000000000000
+# Reg[9] = 0000000000000000
+# Reg[10] = 0000000000000000
+# Reg[11] = 0000000000000000
+# Reg[12] = 0000000000000000
+# Reg[13] = 0000000000000000
+# Reg[14] = 0000000000000000
+# Reg[15] = 0000000000000000
+# Reg[16] = 0000000000000000
+# Reg[17] = 0000000000000000
+# Reg[18] = 0000000000000000
+# Reg[19] = 0000000000000000
+# Reg[20] = 0000000000000000
+# Reg[21] = 0000000000000000
+# Reg[22] = 0000000000000000
+# Reg[23] = 0000000000000000
+# Reg[24] = 0000000000000000
+# Reg[25] = 0000000000000000
+# Reg[26] = 0000000000000000
+# Reg[27] = 0000000000000000
+# Reg[28] = 0000000000000000
+# Reg[29] = 0000000000000000
+# Reg[30] = 0000000000000000
+# Reg[31] = 0000000000000000
+# 
+# ---- Data Memory Contents ----
+# Mem[0] = xxxxxxxxxxxxxxxx
+# Mem[8] = xxxxxxxxxxxxxxxx
+# Mem[16] = xxxxxxxxxxxxxxxx
+# Mem[24] = xxxxxxxxxxxxxxxx
+# Mem[32] = xxxxxxxxxxxxxxxx
+# Mem[40] = xxxxxxxxxxxxxxxx
+# Mem[48] = xxxxxxxxxxxxxxxx
+# Mem[56] = xxxxxxxxxxxxxxxx
+# Mem[64] = xxxxxxxxxxxxxxxx
+# Mem[72] = xxxxxxxxxxxxxxxx
+# Mem[80] = xxxxxxxxxxxxxxxx
+# Mem[88] = xxxxxxxxxxxxxxxx
+# Mem[96] = xxxxxxxxxxxxxxxx
+# Mem[104] = xxxxxxxxxxxxxxxx
+# Mem[112] = xxxxxxxxxxxxxxxx
+# Mem[120] = xxxxxxxxxxxxxxxx
+# 
+# ---- Final ALU Flags ----
+# Negative:   0
+# Zero:       1
+# Overflow:   0
+# Carry-out:  1
+# ** Note: $stop    : ./cpustim.sv(57)
+#    Time: 100050 us  Iteration: 1  Instance: /cpustim
+# Break in Module cpustim at ./cpustim.sv line 57
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:54:26 on Jun 01,2025
+# vlog -reportprogress 300 ./D_FF.sv ./adder1.sv ./alu.sv ./alu1.sv ./alustim.sv ./b_immediate.sv ./branch_condition.sv ./branch_link.sv ./branch_logic.sv ./cb_immediate.sv ./control_unit.sv ./cpu.sv ./cpustim.sv ./d_immediate.sv ./datamem.sv ./dec3x8.sv ./dec5x32.sv ./decode_stage.sv ./ex_mem_reg.sv ./execute_stage.sv ./fetch_stage.sv ./flag_forwarding.sv ./forwarding_unit.sv ./hazard_unit.sv ./i_immediate.sv ./id_ex_reg.sv ./if_id_reg.sv ./instructmem.sv ./left2_shifter.sv ./math.sv ./mem_wb_reg.sv ./memory_stage.sv ./mux2.sv ./mux3.sv ./mux32.sv ./mux4.sv ./mux8.sv ./reg64.sv ./regN.sv ./regfile.sv ./regstim.sv ./sign_extender.sv ./writeback_stage.sv ./zero_extender.sv ./zero_flagger.sv 
+# -- Compiling module D_FF
+# -- Compiling module adder1
+# -- Compiling module alu
+# -- Compiling module alu1
+# -- Compiling module alustim
+# -- Compiling module b_immediate
+# -- Compiling module branch_condition
+# -- Compiling module branch_link
+# -- Compiling module branch_logic
+# -- Compiling module cb_immediate
+# -- Compiling module control_unit
+# -- Compiling module cpu
+# -- Compiling module cpustim
+# -- Compiling module d_immediate
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# -- Compiling module dec3x8
+# -- Compiling module dec5x32
+# -- Compiling module dec5x32_tb
+# -- Compiling module decode_stage
+# -- Compiling module ex_mem_reg
+# -- Compiling module execute_stage
+# -- Compiling module fetch_stage
+# -- Compiling module flag_forwarding
+# -- Compiling module forwarding_unit
+# -- Compiling module hazard_unit
+# -- Compiling module i_immediate
+# -- Compiling module id_ex_reg
+# -- Compiling module if_id_reg
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# -- Compiling module left2_shifter
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# -- Compiling module mem_wb_reg
+# -- Compiling module memory_stage
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module mux32
+# -- Compiling module mux4
+# -- Compiling module mux8
+# -- Compiling module reg64
+# -- Compiling module reg64_tb
+# -- Compiling module regN
+# -- Compiling module regfile
+# -- Compiling module regstim
+# -- Compiling module sign_extender
+# -- Compiling module writeback_stage
+# -- Compiling module zero_extender
+# -- Compiling module zero_flagger
+# 
+# Top level modules:
+# 	alustim
+# 	branch_condition
+# 	branch_link
+# 	cpustim
+# 	datamem_testbench
+# 	dec5x32_tb
+# 	instructmem_testbench
+# 	left2_shifter
+# 	shifter_testbench
+# 	mult_testbench
+# 	reg64_tb
+# 	regstim
+# End time: 23:54:27 on Jun 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 23:54:28 on Jun 01,2025, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work cpustim 
+# Start time: 23:54:28 on Jun 01,2025
+# Loading sv_std.std
+# Loading work.cpustim
+# Loading work.cpu
+# Loading work.fetch_stage
+# Loading work.reg64
+# Loading work.instructmem
+# Loading work.alu
+# Loading work.alu1
+# Loading work.adder1
+# Loading work.mux8
+# Loading work.dec3x8
+# Loading work.zero_flagger
+# Loading work.if_id_reg
+# Loading work.decode_stage
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.dec5x32
+# Loading work.mux32
+# Loading work.i_immediate
+# Loading work.zero_extender
+# Loading work.b_immediate
+# Loading work.sign_extender
+# Loading work.cb_immediate
+# Loading work.d_immediate
+# Loading work.mux4
+# Loading work.control_unit
+# Loading work.id_ex_reg
+# Loading work.execute_stage
+# Loading work.mux3
+# Loading work.ex_mem_reg
+# Loading work.memory_stage
+# Loading work.datamem
+# Loading work.mem_wb_reg
+# Loading work.writeback_stage
+# Loading work.branch_logic
+# Loading work.forwarding_unit
+# Loading work.hazard_unit
+# Loading work.regN
+# Loading work.flag_forwarding
+# Loading work.D_FF
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: marie  Hostname: DESKTOP-5FR2ES7  ProcessID: 11144
+#           Attempting to use alternate WLF file "./wlftff6xaz".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftff6xaz
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test10_forwarding.arm
+# 
+# ---- Register File Contents ----
+# Reg[0] = 0000000000000000
+# Reg[1] = 0000000000000008
+# Reg[2] = 0000000000000000
+# Reg[3] = 0000000000000005
+# Reg[4] = 0000000000000007
+# Reg[5] = 0000000000000002
+# Reg[6] = fffffffffffffffe
+# Reg[7] = fffffffffffffffe
+# Reg[8] = fffffffffffff001
+# Reg[9] = 0000000000000001
+# Reg[10] = fffffffffffffffc
+# Reg[11] = 0000000000000000
+# Reg[12] = 0000000000000000
+# Reg[13] = 0000000000000000
+# Reg[14] = 0000000000000005
+# Reg[15] = 0000000000000008
+# Reg[16] = 0000000000000009
+# Reg[17] = 0000000000000001
+# Reg[18] = 0000000000000063
+# Reg[19] = 0000000000000000
+# Reg[20] = 0000000000000000
+# Reg[21] = 0000000000000000
+# Reg[22] = 0000000000000000
+# Reg[23] = 0000000000000000
+# Reg[24] = 0000000000000000
+# Reg[25] = 0000000000000000
+# Reg[26] = 0000000000000000
+# Reg[27] = 0000000000000000
+# Reg[28] = 0000000000000000
+# Reg[29] = 0000000000000000
+# Reg[30] = 0000000000000000
+# Reg[31] = 0000000000000000
+# 
+# ---- Data Memory Contents ----
+# Mem[0] = 0000000000000008
+# Mem[8] = 0000000000000005
+# Mem[16] = xxxxxxxxxxxxxxxx
+# Mem[24] = xxxxxxxxxxxxxxxx
+# Mem[32] = xxxxxxxxxxxxxxxx
+# Mem[40] = xxxxxxxxxxxxxxxx
+# Mem[48] = xxxxxxxxxxxxxxxx
+# Mem[56] = xxxxxxxxxxxxxxxx
+# Mem[64] = xxxxxxxxxxxxxxxx
+# Mem[72] = xxxxxxxxxxxxxxxx
+# Mem[80] = xxxxxxxxxxxxxxxx
+# Mem[88] = xxxxxxxxxxxxxxxx
+# Mem[96] = xxxxxxxxxxxxxxxx
+# Mem[104] = xxxxxxxxxxxxxxxx
+# Mem[112] = xxxxxxxxxxxxxxxx
+# Mem[120] = xxxxxxxxxxxxxxxx
+# 
+# ---- Final ALU Flags ----
+# Negative:   1
+# Zero:       0
+# Overflow:   0
+# Carry-out:  0
+# ** Note: $stop    : ./cpustim.sv(57)
+#    Time: 100050 us  Iteration: 1  Instance: /cpustim
+# Break in Module cpustim at ./cpustim.sv line 57
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:55:38 on Jun 01,2025
+# vlog -reportprogress 300 ./D_FF.sv ./adder1.sv ./alu.sv ./alu1.sv ./alustim.sv ./b_immediate.sv ./branch_condition.sv ./branch_link.sv ./branch_logic.sv ./cb_immediate.sv ./control_unit.sv ./cpu.sv ./cpustim.sv ./d_immediate.sv ./datamem.sv ./dec3x8.sv ./dec5x32.sv ./decode_stage.sv ./ex_mem_reg.sv ./execute_stage.sv ./fetch_stage.sv ./flag_forwarding.sv ./forwarding_unit.sv ./hazard_unit.sv ./i_immediate.sv ./id_ex_reg.sv ./if_id_reg.sv ./instructmem.sv ./left2_shifter.sv ./math.sv ./mem_wb_reg.sv ./memory_stage.sv ./mux2.sv ./mux3.sv ./mux32.sv ./mux4.sv ./mux8.sv ./reg64.sv ./regN.sv ./regfile.sv ./regstim.sv ./sign_extender.sv ./writeback_stage.sv ./zero_extender.sv ./zero_flagger.sv 
+# -- Compiling module D_FF
+# -- Compiling module adder1
+# -- Compiling module alu
+# -- Compiling module alu1
+# -- Compiling module alustim
+# -- Compiling module b_immediate
+# -- Compiling module branch_condition
+# -- Compiling module branch_link
+# -- Compiling module branch_logic
+# -- Compiling module cb_immediate
+# -- Compiling module control_unit
+# -- Compiling module cpu
+# -- Compiling module cpustim
+# -- Compiling module d_immediate
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# -- Compiling module dec3x8
+# -- Compiling module dec5x32
+# -- Compiling module dec5x32_tb
+# -- Compiling module decode_stage
+# -- Compiling module ex_mem_reg
+# -- Compiling module execute_stage
+# -- Compiling module fetch_stage
+# -- Compiling module flag_forwarding
+# -- Compiling module forwarding_unit
+# -- Compiling module hazard_unit
+# -- Compiling module i_immediate
+# -- Compiling module id_ex_reg
+# -- Compiling module if_id_reg
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# -- Compiling module left2_shifter
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# -- Compiling module mem_wb_reg
+# -- Compiling module memory_stage
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module mux32
+# -- Compiling module mux4
+# -- Compiling module mux8
+# -- Compiling module reg64
+# -- Compiling module reg64_tb
+# -- Compiling module regN
+# -- Compiling module regfile
+# -- Compiling module regstim
+# -- Compiling module sign_extender
+# -- Compiling module writeback_stage
+# -- Compiling module zero_extender
+# -- Compiling module zero_flagger
+# 
+# Top level modules:
+# 	alustim
+# 	branch_condition
+# 	branch_link
+# 	cpustim
+# 	datamem_testbench
+# 	dec5x32_tb
+# 	instructmem_testbench
+# 	left2_shifter
+# 	shifter_testbench
+# 	mult_testbench
+# 	reg64_tb
+# 	regstim
+# End time: 23:55:38 on Jun 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:55:40 on Jun 01,2025, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work cpustim 
+# Start time: 23:55:40 on Jun 01,2025
+# Loading sv_std.std
+# Loading work.cpustim
+# Loading work.cpu
+# Loading work.fetch_stage
+# Loading work.reg64
+# Loading work.instructmem
+# Loading work.alu
+# Loading work.alu1
+# Loading work.adder1
+# Loading work.mux8
+# Loading work.dec3x8
+# Loading work.zero_flagger
+# Loading work.if_id_reg
+# Loading work.decode_stage
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.dec5x32
+# Loading work.mux32
+# Loading work.i_immediate
+# Loading work.zero_extender
+# Loading work.b_immediate
+# Loading work.sign_extender
+# Loading work.cb_immediate
+# Loading work.d_immediate
+# Loading work.mux4
+# Loading work.control_unit
+# Loading work.id_ex_reg
+# Loading work.execute_stage
+# Loading work.mux3
+# Loading work.ex_mem_reg
+# Loading work.memory_stage
+# Loading work.datamem
+# Loading work.mem_wb_reg
+# Loading work.writeback_stage
+# Loading work.branch_logic
+# Loading work.forwarding_unit
+# Loading work.hazard_unit
+# Loading work.regN
+# Loading work.flag_forwarding
+# Loading work.D_FF
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: marie  Hostname: DESKTOP-5FR2ES7  ProcessID: 11144
+#           Attempting to use alternate WLF file "./wlfttwftkf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttwftkf
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test11_Sort.arm
+# 
+# ---- Register File Contents ----
+# Reg[0] = 0000000000000000
+# Reg[1] = 0000000000000001
+# Reg[2] = 0000000000000002
+# Reg[3] = 0000000000000001
+# Reg[4] = 0000000000000008
+# Reg[5] = 0000000000000001
+# Reg[6] = 0000000000000000
+# Reg[7] = 0000000000000000
+# Reg[8] = 0000000000000000
+# Reg[9] = 0000000000000000
+# Reg[10] = 0000000000000000
+# Reg[11] = 0000000000000001
+# Reg[12] = 0000000000000002
+# Reg[13] = 0000000000000003
+# Reg[14] = 0000000000000004
+# Reg[15] = 0000000000000005
+# Reg[16] = 0000000000000006
+# Reg[17] = 0000000000000007
+# Reg[18] = 0000000000000008
+# Reg[19] = 0000000000000009
+# Reg[20] = 000000000000000a
+# Reg[21] = 0000000000000000
+# Reg[22] = 0000000000000000
+# Reg[23] = 0000000000000000
+# Reg[24] = 0000000000000000
+# Reg[25] = 0000000000000000
+# Reg[26] = 0000000000000000
+# Reg[27] = 0000000000000000
+# Reg[28] = 0000000000000000
+# Reg[29] = 0000000000000000
+# Reg[30] = 0000000000000000
+# Reg[31] = 0000000000000000
+# 
+# ---- Data Memory Contents ----
+# Mem[0] = 0000000000000001
+# Mem[8] = 0000000000000002
+# Mem[16] = 0000000000000003
+# Mem[24] = 0000000000000004
+# Mem[32] = 0000000000000005
+# Mem[40] = 0000000000000006
+# Mem[48] = 0000000000000007
+# Mem[56] = 0000000000000008
+# Mem[64] = 0000000000000009
+# Mem[72] = 000000000000000a
+# Mem[80] = xxxxxxxxxxxxxxxx
+# Mem[88] = xxxxxxxxxxxxxxxx
+# Mem[96] = xxxxxxxxxxxxxxxx
+# Mem[104] = xxxxxxxxxxxxxxxx
+# Mem[112] = xxxxxxxxxxxxxxxx
+# Mem[120] = xxxxxxxxxxxxxxxx
+# 
+# ---- Final ALU Flags ----
+# Negative:   0
+# Zero:       1
+# Overflow:   0
+# Carry-out:  1
+# ** Note: $stop    : ./cpustim.sv(57)
+#    Time: 100050 us  Iteration: 1  Instance: /cpustim
+# Break in Module cpustim at ./cpustim.sv line 57
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:56:18 on Jun 01,2025
+# vlog -reportprogress 300 ./D_FF.sv ./adder1.sv ./alu.sv ./alu1.sv ./alustim.sv ./b_immediate.sv ./branch_condition.sv ./branch_link.sv ./branch_logic.sv ./cb_immediate.sv ./control_unit.sv ./cpu.sv ./cpustim.sv ./d_immediate.sv ./datamem.sv ./dec3x8.sv ./dec5x32.sv ./decode_stage.sv ./ex_mem_reg.sv ./execute_stage.sv ./fetch_stage.sv ./flag_forwarding.sv ./forwarding_unit.sv ./hazard_unit.sv ./i_immediate.sv ./id_ex_reg.sv ./if_id_reg.sv ./instructmem.sv ./left2_shifter.sv ./math.sv ./mem_wb_reg.sv ./memory_stage.sv ./mux2.sv ./mux3.sv ./mux32.sv ./mux4.sv ./mux8.sv ./reg64.sv ./regN.sv ./regfile.sv ./regstim.sv ./sign_extender.sv ./writeback_stage.sv ./zero_extender.sv ./zero_flagger.sv 
+# -- Compiling module D_FF
+# -- Compiling module adder1
+# -- Compiling module alu
+# -- Compiling module alu1
+# -- Compiling module alustim
+# -- Compiling module b_immediate
+# -- Compiling module branch_condition
+# -- Compiling module branch_link
+# -- Compiling module branch_logic
+# -- Compiling module cb_immediate
+# -- Compiling module control_unit
+# -- Compiling module cpu
+# -- Compiling module cpustim
+# -- Compiling module d_immediate
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# -- Compiling module dec3x8
+# -- Compiling module dec5x32
+# -- Compiling module dec5x32_tb
+# -- Compiling module decode_stage
+# -- Compiling module ex_mem_reg
+# -- Compiling module execute_stage
+# -- Compiling module fetch_stage
+# -- Compiling module flag_forwarding
+# -- Compiling module forwarding_unit
+# -- Compiling module hazard_unit
+# -- Compiling module i_immediate
+# -- Compiling module id_ex_reg
+# -- Compiling module if_id_reg
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# -- Compiling module left2_shifter
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# -- Compiling module mem_wb_reg
+# -- Compiling module memory_stage
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module mux32
+# -- Compiling module mux4
+# -- Compiling module mux8
+# -- Compiling module reg64
+# -- Compiling module reg64_tb
+# -- Compiling module regN
+# -- Compiling module regfile
+# -- Compiling module regstim
+# -- Compiling module sign_extender
+# -- Compiling module writeback_stage
+# -- Compiling module zero_extender
+# -- Compiling module zero_flagger
+# 
+# Top level modules:
+# 	alustim
+# 	branch_condition
+# 	branch_link
+# 	cpustim
+# 	datamem_testbench
+# 	dec5x32_tb
+# 	instructmem_testbench
+# 	left2_shifter
+# 	shifter_testbench
+# 	mult_testbench
+# 	reg64_tb
+# 	regstim
+# End time: 23:56:18 on Jun 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:56:20 on Jun 01,2025, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work cpustim 
+# Start time: 23:56:20 on Jun 01,2025
+# Loading sv_std.std
+# Loading work.cpustim
+# Loading work.cpu
+# Loading work.fetch_stage
+# Loading work.reg64
+# Loading work.instructmem
+# Loading work.alu
+# Loading work.alu1
+# Loading work.adder1
+# Loading work.mux8
+# Loading work.dec3x8
+# Loading work.zero_flagger
+# Loading work.if_id_reg
+# Loading work.decode_stage
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.dec5x32
+# Loading work.mux32
+# Loading work.i_immediate
+# Loading work.zero_extender
+# Loading work.b_immediate
+# Loading work.sign_extender
+# Loading work.cb_immediate
+# Loading work.d_immediate
+# Loading work.mux4
+# Loading work.control_unit
+# Loading work.id_ex_reg
+# Loading work.execute_stage
+# Loading work.mux3
+# Loading work.ex_mem_reg
+# Loading work.memory_stage
+# Loading work.datamem
+# Loading work.mem_wb_reg
+# Loading work.writeback_stage
+# Loading work.branch_logic
+# Loading work.forwarding_unit
+# Loading work.hazard_unit
+# Loading work.regN
+# Loading work.flag_forwarding
+# Loading work.D_FF
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: marie  Hostname: DESKTOP-5FR2ES7  ProcessID: 11144
+#           Attempting to use alternate WLF file "./wlft55v3t5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft55v3t5
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test12_Fibonacci.arm
+# 
+# ---- Register File Contents ----
+# Reg[0] = 0000000000000006
+# Reg[1] = 0000000000000008
+# Reg[2] = 0000000000000000
+# Reg[3] = 0000000000000000
+# Reg[4] = 0000000000000000
+# Reg[5] = 0000000000000000
+# Reg[6] = 0000000000000000
+# Reg[7] = 0000000000000000
+# Reg[8] = 0000000000000000
+# Reg[9] = 0000000000000000
+# Reg[10] = 0000000000000010
+# Reg[11] = 0000000000000003
+# Reg[12] = 0000000000000001
+# Reg[13] = 0000000000000002
+# Reg[14] = 0000000000000000
+# Reg[15] = 0000000000000000
+# Reg[16] = 0000000000000000
+# Reg[17] = 0000000000000000
+# Reg[18] = 0000000000000000
+# Reg[19] = 0000000000000000
+# Reg[20] = 0000000000000000
+# Reg[21] = 0000000000000000
+# Reg[22] = 0000000000000000
+# Reg[23] = 0000000000000000
+# Reg[24] = 0000000000000000
+# Reg[25] = 0000000000000000
+# Reg[26] = 0000000000000000
+# Reg[27] = 0000000000000000
+# Reg[28] = 0000000000000008
+# Reg[29] = 0000000000000000
+# Reg[30] = 00000000000000c4
+# Reg[31] = 0000000000000000
+# 
+# ---- Data Memory Contents ----
+# Mem[0] = 0000000000000006
+# Mem[8] = 00000000000000c4
+# Mem[16] = 0000000000000006
+# Mem[24] = 0000000000000030
+# Mem[32] = 0000000000000005
+# Mem[40] = 0000000000000098
+# Mem[48] = 0000000000000004
+# Mem[56] = 0000000000000098
+# Mem[64] = 0000000000000003
+# Mem[72] = 0000000000000098
+# Mem[80] = xxxxxxxxxxxxxxxx
+# Mem[88] = xxxxxxxxxxxxxxxx
+# Mem[96] = xxxxxxxxxxxxxxxx
+# Mem[104] = xxxxxxxxxxxxxxxx
+# Mem[112] = xxxxxxxxxxxxxxxx
+# Mem[120] = xxxxxxxxxxxxxxxx
+# 
+# ---- Final ALU Flags ----
+# Negative:   0
+# Zero:       0
+# Overflow:   0
+# Carry-out:  1
+# ** Note: $stop    : ./cpustim.sv(57)
+#    Time: 100050 us  Iteration: 1  Instance: /cpustim
+# Break in Module cpustim at ./cpustim.sv line 57
+# End time: 23:58:06 on Jun 01,2025, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 2

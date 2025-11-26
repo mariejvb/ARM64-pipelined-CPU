@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/stlp/Documents/quartus project template/simulation/modelsim
+vDE1_SOC_golden_top
+!s110 1737008786
+!i10b 1
+!s100 bXPJWP]c@>Rf0:T705;V:1
+IBgLHnP7FFgE:6^bWWz]811
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1450392485
+8C:/Users/stlp/Documents/quartus project template/de1_soc_golden_top.v
+FC:/Users/stlp/Documents/quartus project template/de1_soc_golden_top.v
+L0 54
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1737008786.000000
+!s107 C:/Users/stlp/Documents/quartus project template/de1_soc_golden_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/stlp/Documents/quartus project template|C:/Users/stlp/Documents/quartus project template/de1_soc_golden_top.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/stlp/Documents/quartus project template}
+tCvgOpt 0
+n@d@e1_@s@o@c_golden_top
