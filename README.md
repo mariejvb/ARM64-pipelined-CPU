@@ -5,8 +5,6 @@ A 5-stage pipelined 64-bit ARM CPU implemented in SystemVerilog with hazard dete
 
 This project implements a simplified 64-bit ARM CPU using a 5-stage pipeline architecture: Fetch, Decode, Execute, Memory, and Writeback. It supports arithmetic, load/store, and branching instructions, with full pipeline hazard handling and forwarding to maintain correct operation across all instruction types.
 
-The CPU was designed as part of an academic and personal exploration into processor architecture, embedded systems, and digital design, with an emphasis on hands-on verification and debugging at the signal level.
-
 ## Features
 
 * 5-stage pipeline (Fetch, Decode, Execute, Memory, Writeback)
@@ -19,7 +17,7 @@ The CPU was designed as part of an academic and personal exploration into proces
 
 * Waveform verification using ModelSim
 
-* Designed for educational and prototyping purposes
+* Combinational logic constructed from gate primitives to emphasize structural hardware understanding
 
 ## Technical Highlights
 
